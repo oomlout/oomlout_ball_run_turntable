@@ -1,0 +1,86 @@
+classification: mechanical
+classification_capital: Mechanical
+classification_first_letter: m
+classification_first_letter_upper: M
+classification_upper: MECHANICAL
+color: ''
+color_capital: ''
+color_first_letter: ''
+color_first_letter_upper: ''
+color_upper: ''
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: 7_5_degree_step_angle_12_volt
+description_main_capital: 7.5 Degree Step Angle 12 Volt
+description_main_first_letter: '7'
+description_main_first_letter_upper: '7'
+description_main_upper: 7_5_DEGREE_STEP_ANGLE_12_VOLT
+description_only_numbers: '7512'
+description_only_numbers_short: 7k5
+description_or_color: 7k5
+description_or_color_upper: 7K5
+directory: parts/mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+distributors: []
+id: mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+id_no_class: motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+id_no_size: 7_5_degree_step_angle_12_volt
+id_no_type: 42_mm_diameter_7_5_degree_step_angle_12_volt
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt](none)<br>[](none)<br>[Mechanical
+  Motor Stepper 42 Mm Diameter 7 5 Degree Step Angle 12 Volt](none)<br><br>'
+markdown_short: '[mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt](none)<br><br>'
+md5: 9d4cd672cc598967510bc1fe13313f2c
+md5_10: 9d4cd672cc
+md5_10_upper: 9D4CD672CC
+md5_5: 9d4cd
+md5_5_upper: 9D4CD
+md5_6: 9d4cd6
+md5_6_alpha: 64yc6
+md5_6_alpha_upper: 64YC6
+md5_6_upper: 9D4CD6
+name: Mechanical Motor Stepper 42 Mm Diameter 7 5 Degree Step Angle 12 Volt
+name_no_class: Motor Stepper 42 Mm Diameter 7 5 Degree Step Angle 12 Volt
+name_no_size: 7 5 Degree Step Angle 12 Volt
+name_no_size_short: 7 5 Degree Step Angle 12 Volt
+name_no_type: 42 Mm Diameter 7 5 Degree Step Angle 12 Volt
+oomp_key: oomp_mechanical_motor_stepper_42_mm_diameter_7_5_degree_step_angle_12_volt
+oomp_word: hearts turtle school
+oomp_word_emoji: ':hearts: :turtle: :school:'
+oomp_word_emoji_list:
+- ':hearts:'
+- ':turtle:'
+- ':school:'
+oomp_word_list:
+- hearts
+- turtle
+- school
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: 42_mm_diameter
+size_capital: 42 mm Diameter
+size_first_letter: '4'
+size_first_letter_upper: '4'
+size_only_numbers: '42'
+size_only_numbers_no_zeros: '42'
+size_upper: 42_MM_DIAMETER
+type: motor_stepper
+type_capital: Motor Stepper
+type_first_letter: m
+type_first_letter_upper: M
+type_upper: MOTOR_STEPPER
