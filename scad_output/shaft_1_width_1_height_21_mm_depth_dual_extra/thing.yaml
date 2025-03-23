@@ -1,0 +1,835 @@
+classification: project
+color: oomlout_ball_run_turntable
+description_extra: dual_extra
+description_main: shaft_1_width_1_height_21_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_ball_run_turntable_shaft_1_width_1_height_21_mm_depth_dual_extra
+id_oobb: oobb_part_oomlout_ball_run_turntable_shaft_1_width_1_height_21_mm_depth_dual_extra
+kwargs:
+  extra: dual
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_ball_run_turntable
+  oomp_description_extra: dual_extra
+  oomp_description_main: shaft_1_width_1_height_21_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 21
+  type: oomlout_ball_run_turntable_shaft
+  width: 1
+manufacturer: ''
+name: shaft
+part_number: ''
+project_name: C:\gh\oomlout_ball_run_turntable
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 19
+      extra: dual
+      h: 19
+      height: 1
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - 0.0
+      r: 17.0
+      radius: 17.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 19
+      extra: dual
+      h: 19
+      height: 1
+      inclusion: 3dpr
+      pos: *id001
+      r: 17.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 19
+      extra: dual
+      h: 19
+      height: 1
+      inclusion: 'true'
+      pos: *id001
+      r: 17.0
+      radius: 17.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: laser
+      m: '#'
+      pos: &id002
+      - -100.0
+      - 0
+      - 17.5
+      r: 4.25
+      radius: 4.25
+      rot: &id003
+      - 0
+      - 90
+      - 0
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: 3dpr
+      m: '#'
+      pos: *id002
+      r: 4.25
+      rot: *id003
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: 'true'
+      m: '#'
+      pos: *id002
+      r: 4.25
+      radius: 4.25
+      rot: *id003
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: laser
+      m: '#'
+      pos: &id004
+      - 0.0
+      - 0
+      - 17.5
+      r: 4.25
+      radius: 4.25
+      rot: &id005
+      - 0
+      - 90
+      - 90
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: 3dpr
+      m: '#'
+      pos: *id004
+      r: 4.25
+      rot: *id005
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: 'true'
+      m: '#'
+      pos: *id004
+      r: 4.25
+      radius: 4.25
+      rot: *id005
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: laser
+      m: '#'
+      pos: &id006
+      - -141.60533905932738
+      - -141.4213562373095
+      - 17.5
+      r: 4.25
+      radius: 4.25
+      rot: &id007
+      - 0
+      - 90
+      - 45
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: 3dpr
+      m: '#'
+      pos: *id006
+      r: 4.25
+      rot: *id007
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 200
+      extra: dual
+      h: 200
+      height: 1
+      inclusion: 'true'
+      m: '#'
+      pos: *id006
+      r: 4.25
+      radius: 4.25
+      rot: *id007
+      shape: cylinder
+      type: negative
+      width: 1
+  - - depth: 12
+      extra: dual
+      h: 12
+      height: 1
+      inclusion: laser
+      pos: &id008
+      - 0
+      - 0
+      - 0
+      r: 1.625
+      radius: 1.625
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 12
+      extra: dual
+      h: 12
+      height: 1
+      inclusion: 3dpr
+      pos: *id008
+      r: 1.625
+      shape: cylinder
+      type: negative
+      width: 1
+    - depth: 12
+      extra: dual
+      h: 12
+      height: 1
+      inclusion: 'true'
+      pos: *id008
+      r: 1.625
+      radius: 1.625
+      shape: cylinder
+      type: negative
+      width: 1
+  - - objects:
+      - - clearance:
+          - top
+          depth: 12
+          extra: dual
+          h: 1.7
+          height: 1
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 1
+      - - - clearance:
+            - top
+            depth: 12
+            extra: dual
+            h: 250
+            height: 1
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.4
+            shape: cylinder
+            type: positive
+            width: 1
+      - - clearance: &id009
+          - top
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: laser
+          pos: &id010
+          - 0
+          - 0
+          - -12.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id009
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: 3dpr
+          pos: *id010
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id009
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: 'true'
+          pos: *id010
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      - - clearance:
+          - top
+          depth: 12
+          extra: dual
+          h: 1.9
+          height: 1
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 1
+      - - - clearance:
+            - top
+            depth: 12
+            extra: dual
+            h: 250
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 3.6
+            shape: cylinder
+            type: positive
+            width: 1
+      - - clearance: &id011
+          - top
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: laser
+          pos: &id012
+          - 0
+          - 0
+          - -12.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id011
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: 3dpr
+          pos: *id012
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id011
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: 'true'
+          pos: *id012
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+      - - clearance:
+          - top
+          depth: 12
+          extra: dual
+          h: 1.7
+          height: 1
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 1
+      - - - clearance:
+            - top
+            depth: 12
+            extra: dual
+            h: 250
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - 0.0
+            r: 2.9
+            shape: cylinder
+            type: positive
+            width: 1
+      - - clearance: &id013
+          - top
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: laser
+          pos: &id014
+          - 0
+          - 0
+          - -12.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id013
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: 3dpr
+          pos: *id014
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - clearance: *id013
+          depth: 12
+          extra: dual
+          h: 12
+          height: 1
+          inclusion: 'true'
+          pos: *id014
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      pos:
+      - 12
+      - 0
+      - 6.0
+      rot:
+      - 0
+      - 90
+      - 0
+      type: rotation
+      typetype: n
+  - - objects:
+      - - - clearance:
+            - left
+            extra: dual
+            extra_clearance: 0.25
+            height: 1
+            inclusion: laser
+            pos:
+            - 0.0
+            - -3.2817499999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 6.5634999999999994
+            - 2.75
+            type: positive
+            width: 1
+      - clearance:
+        - left
+        extra: dual
+        extra_clearance: 0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+      - - - clearance:
+            - left
+            extra: dual
+            extra_clearance: 0.25
+            height: 1
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -3.5702499999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 7.140499999999999
+            - 2.75
+            type: positive
+            width: 1
+      - clearance:
+        - left
+        extra: dual
+        extra_clearance: 0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+      - - - clearance:
+            - left
+            extra: dual
+            extra_clearance: 0.25
+            height: 1
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -3.2817499999999997
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 6.5634999999999994
+            - 2.75
+            type: positive
+            width: 1
+      - clearance:
+        - left
+        extra: dual
+        extra_clearance: 0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+      pos:
+      - 6.0
+      - 0
+      - 6.0
+      rot:
+      - 0
+      - 90
+      - 0
+      type: rotation
+      typetype: n
+  components_objects:
+  - depth: 19
+    extra: dual
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 9.5
+    radius: 17.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 21
+    type: p
+    width: 1
+  - depth: 200
+    extra: dual
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -100.0
+    - 0
+    - 117.5
+    radius: 4.25
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 21
+    type: n
+    width: 1
+    zz: middle
+  - depth: 200
+    extra: dual
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - 0
+    - 117.5
+    radius: 4.25
+    rot:
+    - 0
+    - 90
+    - 90
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 21
+    type: n
+    width: 1
+    zz: middle
+  - depth: 200
+    extra: dual
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -141.60533905932738
+    - -141.4213562373095
+    - 117.5
+    radius: 4.25
+    rot:
+    - 0
+    - 90
+    - 45
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 21
+    type: n
+    width: 1
+    zz: middle
+  - depth: 12
+    extra: dual
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius: 1.625
+    save_type: none
+    shape: oobb_hole
+    thickness: 21
+    type: negative
+    width: 1
+  - clearance:
+    - top
+    depth: 12
+    extra: dual
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 12
+    - 0
+    - 6.0
+    radius_name: m3
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: none
+    shape: oobb_screw_countersunk
+    thickness: 21
+    type: n
+    width: 1
+  - clearance:
+    - left
+    extra: dual
+    extra_clearance: 0.25
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run_turntable
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 6.0
+    - 0
+    - 6.0
+    radius_name: m3
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: none
+    shape: oobb_nut
+    thickness: 21
+    type: n
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_p_type_19_depth_0_0_9.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_17.0_radius
+  - oobb_cylinder_shape_n_type_200_depth_-100.0_0_117.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_4.25_radius_0_90_0_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_0.0_0_117.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_4.25_radius_0_90_90_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_-141.60533905932738_-141.4213562373095_117.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_4.25_radius_0_90_45_rot_middle_zz
+  - oobb_hole_shape_negative_type_12_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_1.625_radius
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_12_depth_12_0_6.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_0_90_0_rot_'top'_clearance
+  - oobb_nut_shape_n_type_m3_radius_name_6.0_0_6.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_dual_extra_0.25_extra_clearance_0_90_0_rot_'left'_clearance
+  description: oomlout ball run turntable shaft 1x1x21
+  description_extra: dual_extra
+  description_main: 1_width_1_height_21_mm_depth
+  extra: dual
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_ball_run_turntable_shaft_1_width_1_height_21_mm_depth_dual_extra
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_ball_run_turntable_shaft_1_width_1_height_21_mm_depth_dual_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_ball_run_turntable_shaft/1_width_1_height_21_mm_depth/dual_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_ball_run_turntable_shaft_01_01_21_ex_dual
+  manufacturer: ''
+  name: Oobb Part Oomlout Ball Run Turntable Shaft 1 Width 1 Height 21 mm Depth Dual
+    Extra
+  name_short: Oomlout Ball Run Turntable Shaft 1x1x21
+  part_number: ''
+  short_name: ''
+  size: oomlout_ball_run_turntable_shaft
+  thickness: 21
+  thickness_mm: 21
+  type: part
+  width: 1
+  width_mm: 14
+type: github

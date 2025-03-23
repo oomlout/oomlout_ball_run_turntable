@@ -1,0 +1,42 @@
+classification: project
+color: oomlout_ball_run_turntable
+description_extra: deadend_extra
+description_main: shaft_1_width_1_height_21_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_ball_run_turntable_shaft_1_width_1_height_21_mm_depth_deadend_extra
+id_oobb: oobb_part_oomlout_ball_run_turntable_shaft_1_width_1_height_21_mm_depth_deadend_extra
+kwargs:
+  extra: deadend
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_classification: project
+  oomp_color: oomlout_ball_run_turntable
+  oomp_description_extra: deadend_extra
+  oomp_description_main: shaft_1_width_1_height_21_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: true
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 21
+  typ: all
+  type: oomlout_ball_run_turntable_shaft
+  width: 1
+manufacturer: ''
+name: shaft
+part_number: ''
+project_name: C:\gh\oomlout_ball_run_turntable
+size: oomlout
+type: github

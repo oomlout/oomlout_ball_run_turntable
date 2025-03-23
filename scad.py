@@ -137,18 +137,21 @@ def make_scad(**kwargs):
         parts.append(part)
 
 
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 1
-        p3["height"] = 1
-        p3["thickness"] = 9 + 12
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "shaft"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        parts.append(part)
+        extras = ["","dual", "deadend"]
+        for ex in extras:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = 1
+            p3["height"] = 1
+            p3["thickness"] = 9 + 12
+            if ex != "":
+                p3["extra"] = ex
+            part["kwargs"] = p3
+            nam = "shaft"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -528,25 +531,87 @@ def get_shaft(thing, **kwargs):
 
     #ball runs
     if True:
-        p3 = copy.deepcopy(kwargs)
-        p3["type"] = "n"
-        p3["shape"] = f"oobb_cylinder"
-        p3["radius"] = radius_ball + clearance_ball
-        dep = 200
-        p3["depth"] = dep
-        rot1 = copy.deepcopy(rot)
-        rot1[1] += 90
-        p3["rot"] = rot1
-        #p3["m"] = "#"
-        pos1 = copy.deepcopy(pos)
-        pos1[0] += -dep/2
-        pos1[1] += 0
-        pos1[2] += dep/2 + 9/2 + lift_ball + 12 - motor_bump_depth
-        p3["pos"] = pos1
-        p3["zz"] = "middle"
-        
-        p4 = copy.deepcopy(p3)
-        oobb_base.append_full(thing,**p4)
+        if extra == "deadend":
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "n"
+            p3["shape"] = f"oobb_cylinder"
+            rad = radius_ball + clearance_ball
+            p3["radius"] = rad
+            dep = 200
+            p3["depth"] = dep
+            rot1 = copy.deepcopy(rot)
+            rot1[1] += 90
+            p3["rot"] = rot1
+            p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += 0
+            pos1[1] += 0
+            pos1[2] += dep/2 + 9/2 + lift_ball + 12 - motor_bump_depth
+            p3["pos"] = pos1
+            p3["zz"] = "middle"
+            
+            p4 = copy.deepcopy(p3)
+            oobb_base.append_full(thing,**p4)
+
+
+        if extra == "" or extra == "dual":
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "n"
+            p3["shape"] = f"oobb_cylinder"
+            rad = radius_ball + clearance_ball
+            p3["radius"] = rad
+            dep = 200
+            p3["depth"] = dep
+            rot1 = copy.deepcopy(rot)
+            rot1[1] += 90
+            p3["rot"] = rot1
+            p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += -dep/2
+            pos1[1] += 0
+            pos1[2] += dep/2 + 9/2 + lift_ball + 12 - motor_bump_depth
+            p3["pos"] = pos1
+            p3["zz"] = "middle"
+            
+            p4 = copy.deepcopy(p3)
+            oobb_base.append_full(thing,**p4)
+
+        if "dual" in extra:
+            p4 = copy.deepcopy(p3)
+            pos2 = copy.deepcopy(pos1)
+            pos2[0] += dep/2
+            pos2[1] += 0
+            pos2[2] += 0
+            p4["pos"] = pos2
+            rot2 = copy.deepcopy(rot1)
+            rot2[2] += 90        
+            p4["rot"] = rot2
+            oobb_base.append_full(thing,**p4)
+
+            import math
+
+            p4 = copy.deepcopy(p3)
+            pos2 = copy.deepcopy(pos1)
+            #use trig
+            pos2[0] += -(math.cos(math.radians(45)) * ((dep)/4)) - rad - 2
+            pos2[1] += -math.sin(math.radians(45)) * dep
+            pos2[2] += 0
+            p4["pos"] = pos2
+            rot2 = copy.deepcopy(rot1)
+            rot2[2] += 45
+            p4["rot"] = rot2
+            oobb_base.append_full(thing,**p4)
+
+            p4 = copy.deepcopy(p3)
+            pos2 = copy.deepcopy(pos1)
+            pos2[0] += dep/4
+            pos2[1] += dep/4
+            pos2[2] += 0
+            p4["pos"] = pos2
+            rot2 = copy.deepcopy(rot1)
+            rot2[2] += -45
+            p4["rot"] = rot2
+            #oobb_base.append_full(thing,**p4)
         
 
 
