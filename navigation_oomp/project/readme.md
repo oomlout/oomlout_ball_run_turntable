@@ -1,7 +1,6 @@
 * [github](github)
   * [oomlout](github/oomlout)
     * [oomlout_ball_run_turntable](github/oomlout/oomlout_ball_run_turntable)
-      * [holder_4_width_4_height_9_mm_depth](github/oomlout/oomlout_ball_run_turntable/holder_4_width_4_height_9_mm_depth)
       * [holder_5_width_5_height_9_mm_depth](github/oomlout/oomlout_ball_run_turntable/holder_5_width_5_height_9_mm_depth)
       * [shaft_1_width_1_height_21_mm_depth](github/oomlout/oomlout_ball_run_turntable/shaft_1_width_1_height_21_mm_depth)
         * [deadend_extra](github/oomlout/oomlout_ball_run_turntable/shaft_1_width_1_height_21_mm_depth/deadend_extra)

@@ -86,9 +86,9 @@ thing:
       pos: &id002
       - 0
       - 0
-      - 17.5
-      r: 4.25
-      radius: 4.25
+      - 2.0
+      r: 3.25
+      radius: 3.25
       rot: &id003
       - 0
       - 90
@@ -103,7 +103,7 @@ thing:
       inclusion: 3dpr
       m: '#'
       pos: *id002
-      r: 4.25
+      r: 3.25
       rot: *id003
       shape: cylinder
       type: negative
@@ -115,8 +115,8 @@ thing:
       inclusion: 'true'
       m: '#'
       pos: *id002
-      r: 4.25
-      radius: 4.25
+      r: 3.25
+      radius: 3.25
       rot: *id003
       shape: cylinder
       type: negative
@@ -538,8 +538,8 @@ thing:
     pos:
     - 0
     - 0
-    - 117.5
-    radius: 4.25
+    - 102.0
+    radius: 3.25
     rot:
     - 0
     - 90
@@ -648,7 +648,7 @@ thing:
     width: 1
   components_string:
   - oobb_cylinder_shape_p_type_19_depth_0_0_9.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_deadend_extra_17.0_radius
-  - oobb_cylinder_shape_n_type_200_depth_0_0_117.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_deadend_extra_4.25_radius_0_90_0_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_0_0_102.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_deadend_extra_3.25_radius_0_90_0_rot_middle_zz
   - oobb_hole_shape_negative_type_12_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_deadend_extra_1.625_radius
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_12_depth_12_0_6.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_deadend_extra_0_90_0_rot_'top'_clearance
   - oobb_nut_shape_n_type_m3_radius_name_6.0_0_6.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_21_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_deadend_extra_0.25_extra_clearance_0_90_0_rot_'left'_clearance

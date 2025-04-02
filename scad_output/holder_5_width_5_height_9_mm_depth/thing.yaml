@@ -838,12 +838,13 @@ thing:
       h: 200
       height: 5
       inclusion: laser
+      m: '#'
       pos: &id024
       - -100.0
       - 0
-      - 7.5
-      r: 4.25
-      radius: 4.25
+      - 7.0
+      r: 3.25
+      radius: 3.25
       rot: &id025
       - 0
       - 90
@@ -855,8 +856,9 @@ thing:
       h: 200
       height: 5
       inclusion: 3dpr
+      m: '#'
       pos: *id024
-      r: 4.25
+      r: 3.25
       rot: *id025
       shape: cylinder
       type: negative
@@ -865,9 +867,10 @@ thing:
       h: 200
       height: 5
       inclusion: 'true'
+      m: '#'
       pos: *id024
-      r: 4.25
-      radius: 4.25
+      r: 3.25
+      radius: 3.25
       rot: *id025
       shape: cylinder
       type: negative
@@ -876,12 +879,13 @@ thing:
       h: 200
       height: 5
       inclusion: laser
+      m: '#'
       pos: &id026
       - 0.0
       - -100.0
-      - 7.5
-      r: 4.25
-      radius: 4.25
+      - 7.0
+      r: 3.25
+      radius: 3.25
       rot: &id027
       - 0
       - 90
@@ -893,8 +897,9 @@ thing:
       h: 200
       height: 5
       inclusion: 3dpr
+      m: '#'
       pos: *id026
-      r: 4.25
+      r: 3.25
       rot: *id027
       shape: cylinder
       type: negative
@@ -903,9 +908,10 @@ thing:
       h: 200
       height: 5
       inclusion: 'true'
+      m: '#'
       pos: *id026
-      r: 4.25
-      radius: 4.25
+      r: 3.25
+      radius: 3.25
       rot: *id027
       shape: cylinder
       type: negative
@@ -914,12 +920,13 @@ thing:
       h: 200
       height: 5
       inclusion: laser
+      m: '#'
       pos: &id028
       - -50.0
       - -50.0
-      - 7.5
-      r: 4.25
-      radius: 4.25
+      - 7.0
+      r: 3.25
+      radius: 3.25
       rot: &id029
       - 0
       - 90
@@ -931,8 +938,9 @@ thing:
       h: 200
       height: 5
       inclusion: 3dpr
+      m: '#'
       pos: *id028
-      r: 4.25
+      r: 3.25
       rot: *id029
       shape: cylinder
       type: negative
@@ -941,9 +949,10 @@ thing:
       h: 200
       height: 5
       inclusion: 'true'
+      m: '#'
       pos: *id028
-      r: 4.25
-      radius: 4.25
+      r: 3.25
+      radius: 3.25
       rot: *id029
       shape: cylinder
       type: negative
@@ -952,12 +961,13 @@ thing:
       h: 200
       height: 5
       inclusion: laser
+      m: '#'
       pos: &id030
       - -50.0
       - 50.0
-      - 7.5
-      r: 4.25
-      radius: 4.25
+      - 7.0
+      r: 3.25
+      radius: 3.25
       rot: &id031
       - 0
       - 90
@@ -969,8 +979,9 @@ thing:
       h: 200
       height: 5
       inclusion: 3dpr
+      m: '#'
       pos: *id030
-      r: 4.25
+      r: 3.25
       rot: *id031
       shape: cylinder
       type: negative
@@ -979,9 +990,10 @@ thing:
       h: 200
       height: 5
       inclusion: 'true'
+      m: '#'
       pos: *id030
-      r: 4.25
-      radius: 4.25
+      r: 3.25
+      radius: 3.25
       rot: *id031
       shape: cylinder
       type: negative
@@ -1191,6 +1203,7 @@ thing:
   - depth: 200
     filter: ''
     height: 5
+    m: '#'
     modes:
     - 3dpr
     navigation: false
@@ -1208,8 +1221,8 @@ thing:
     pos:
     - -100.0
     - 0
-    - 107.5
-    radius: 4.25
+    - 107.0
+    radius: 3.25
     rot:
     - 0
     - 90
@@ -1223,6 +1236,7 @@ thing:
   - depth: 200
     filter: ''
     height: 5
+    m: '#'
     modes:
     - 3dpr
     navigation: false
@@ -1240,8 +1254,8 @@ thing:
     pos:
     - 0.0
     - -100.0
-    - 107.5
-    radius: 4.25
+    - 107.0
+    radius: 3.25
     rot:
     - 0
     - 90
@@ -1255,6 +1269,7 @@ thing:
   - depth: 200
     filter: ''
     height: 5
+    m: '#'
     modes:
     - 3dpr
     navigation: false
@@ -1272,8 +1287,8 @@ thing:
     pos:
     - -50.0
     - -50.0
-    - 107.5
-    radius: 4.25
+    - 107.0
+    radius: 3.25
     rot:
     - 0
     - 90
@@ -1287,6 +1302,7 @@ thing:
   - depth: 200
     filter: ''
     height: 5
+    m: '#'
     modes:
     - 3dpr
     navigation: false
@@ -1304,8 +1320,8 @@ thing:
     pos:
     - -50.0
     - 50.0
-    - 107.5
-    radius: 4.25
+    - 107.0
+    radius: 3.25
     rot:
     - 0
     - 90
@@ -1323,10 +1339,10 @@ thing:
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_9_depth_22.211_-10.345_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_9_depth_-22.211_10.345_9_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color
   - oobb_hole_shape_n_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_18.0_radius
-  - oobb_cylinder_shape_n_type_200_depth_-100.0_0_107.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_4.25_radius_0_90_0_rot_middle_zz
-  - oobb_cylinder_shape_n_type_200_depth_0.0_-100.0_107.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_4.25_radius_0_90_90_rot_middle_zz
-  - oobb_cylinder_shape_n_type_200_depth_-50.0_-50.0_107.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_4.25_radius_0_90_45_rot_middle_zz
-  - oobb_cylinder_shape_n_type_200_depth_-50.0_50.0_107.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_4.25_radius_0_90_-45_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_-100.0_0_107.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_3.25_radius_0_90_0_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_0.0_-100.0_107.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_3.25_radius_0_90_90_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_-50.0_-50.0_107.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_3.25_radius_0_90_45_rot_middle_zz
+  - oobb_cylinder_shape_n_type_200_depth_-50.0_50.0_107.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_5_width_5_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_turntable_oomp_color_3.25_radius_0_90_-45_rot_middle_zz
   description: oomlout ball run turntable holder 5x5x9
   description_extra: ''
   description_main: 5_width_5_height_9_mm_depth

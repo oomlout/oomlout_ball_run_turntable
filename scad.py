@@ -6,6 +6,11 @@ import yaml
 import os
 import scad_help
 
+shift_up = 1
+clear_6_mm_diameter = 0.5/2
+radius_ball_6_mm = 6/2 + clear_6_mm_diameter
+radius_6_mm  = 6/2
+
 def main(**kwargs):
     make_scad(**kwargs)
 
@@ -398,17 +403,17 @@ def get_holder(thing, **kwargs):
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "n"
         p3["shape"] = f"oobb_cylinder"
-        p3["radius"] = radius_ball + clearance_ball
+        p3["radius"] = radius_ball_6_mm
         dep = 200
         p3["depth"] = dep
         rot1 = copy.deepcopy(rot)
         rot1[1] += 90
         p3["rot"] = rot1
-        #p3["m"] = "#"
+        p3["m"] = "#"
         pos1 = copy.deepcopy(pos)
         pos1[0] += -dep/2
         pos1[1] += 0
-        pos1[2] += dep/2 + depth/2 + lift_ball
+        pos1[2] += dep/2 + depth - radius_6_mm + shift_up
         p3["pos"] = pos1
         p3["zz"] = "middle"
         
@@ -535,7 +540,7 @@ def get_shaft(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = "n"
             p3["shape"] = f"oobb_cylinder"
-            rad = radius_ball + clearance_ball
+            rad = radius_ball_6_mm
             p3["radius"] = rad
             dep = 200
             p3["depth"] = dep
@@ -546,7 +551,7 @@ def get_shaft(thing, **kwargs):
             pos1 = copy.deepcopy(pos)
             pos1[0] += 0
             pos1[1] += 0
-            pos1[2] += dep/2 + 9/2 + lift_ball + 12 - motor_bump_depth
+            pos1[2] += dep/2 + depth - radius_6_mm + shift_up
             p3["pos"] = pos1
             p3["zz"] = "middle"
             
@@ -558,7 +563,7 @@ def get_shaft(thing, **kwargs):
             p3 = copy.deepcopy(kwargs)
             p3["type"] = "n"
             p3["shape"] = f"oobb_cylinder"
-            rad = radius_ball + clearance_ball
+            rad = radius_ball_6_mm
             p3["radius"] = rad
             dep = 200
             p3["depth"] = dep
@@ -569,7 +574,7 @@ def get_shaft(thing, **kwargs):
             pos1 = copy.deepcopy(pos)
             pos1[0] += -dep/2
             pos1[1] += 0
-            pos1[2] += dep/2 + 9/2 + lift_ball + 12 - motor_bump_depth
+            pos1[2] += dep/2 + depth - radius_6_mm + shift_up# dep/2 + 9/2 + lift_ball + 12 - motor_bump_depth
             p3["pos"] = pos1
             p3["zz"] = "middle"
             
